@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 class Details extends Component {
     state = {
@@ -7,9 +7,12 @@ class Details extends Component {
 
     render() {
         return (
-            <h1>Details Page</h1>
+            <div className="container">
+                <div className="col-6">
+                </div>
+            </div>
         )
     }
 }
 
-export default Details;
+export default Details
